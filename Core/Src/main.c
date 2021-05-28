@@ -23,7 +23,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "delay.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -83,7 +83,7 @@ int main(void)
   HAL_Init();
 
   /* USER CODE BEGIN Init */
-
+    HAL_Delay(1);
   /* USER CODE END Init */
 
   /* Configure the system clock */
@@ -104,7 +104,10 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-      printf("Test UART\n");
+      HAL_GPIO_WritePin(RRST_GPIO_Port, RRST_Pin, GPIO_PIN_RESET);
+      delay_us(10);
+      HAL_GPIO_WritePin(RRST_GPIO_Port, RRST_Pin, GPIO_PIN_SET);
+      delay_us(10);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

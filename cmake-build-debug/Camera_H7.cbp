@@ -94,6 +94,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/psc/CLionProjects/Camera_H7/Core/Inc/OV7725.h">
+			<Option target="Camera_H7.elf"/>
+		</Unit>
+		<Unit filename="/Users/psc/CLionProjects/Camera_H7/Core/Inc/OV7725_config.h">
+			<Option target="Camera_H7.elf"/>
+		</Unit>
 		<Unit filename="/Users/psc/CLionProjects/Camera_H7/Core/Inc/SCCB.h">
 			<Option target="Camera_H7.elf"/>
 		</Unit>

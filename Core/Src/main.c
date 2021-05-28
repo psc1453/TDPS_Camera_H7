@@ -102,7 +102,7 @@ SCCB_Init();
 
 int id = 0;
     SCCB_WR_Reg_ecc(0x12, 0x80);
-    SCCB_WR_Reg_ecc(0x19, 0x07);
+//    SCCB_WR_Reg_ecc(0x19, 0x07);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -110,7 +110,7 @@ int id = 0;
   while (1)
   {
 
-      id = SCCB_RD_Reg_ecc(0x0b);
+      id = SCCB_RD_Reg_ecc(0x2a);
       HAL_Delay(100);
       printf("%x\n", id);
       HAL_Delay(100);

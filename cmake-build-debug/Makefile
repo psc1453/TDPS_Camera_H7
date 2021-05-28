@@ -142,6 +142,33 @@ Camera_H7.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Camera_H7.elf.dir/build.make CMakeFiles/Camera_H7.elf.dir/build
 .PHONY : Camera_H7.elf/fast
 
+Core/Src/SCCB.obj: Core/Src/SCCB.c.obj
+
+.PHONY : Core/Src/SCCB.obj
+
+# target to build an object file
+Core/Src/SCCB.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Camera_H7.elf.dir/build.make CMakeFiles/Camera_H7.elf.dir/Core/Src/SCCB.c.obj
+.PHONY : Core/Src/SCCB.c.obj
+
+Core/Src/SCCB.i: Core/Src/SCCB.c.i
+
+.PHONY : Core/Src/SCCB.i
+
+# target to preprocess a source file
+Core/Src/SCCB.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Camera_H7.elf.dir/build.make CMakeFiles/Camera_H7.elf.dir/Core/Src/SCCB.c.i
+.PHONY : Core/Src/SCCB.c.i
+
+Core/Src/SCCB.s: Core/Src/SCCB.c.s
+
+.PHONY : Core/Src/SCCB.s
+
+# target to generate assembly for a file
+Core/Src/SCCB.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Camera_H7.elf.dir/build.make CMakeFiles/Camera_H7.elf.dir/Core/Src/SCCB.c.s
+.PHONY : Core/Src/SCCB.c.s
+
 Core/Src/delay.obj: Core/Src/delay.c.obj
 
 .PHONY : Core/Src/delay.obj
@@ -916,6 +943,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Camera_H7.elf"
+	@echo "... Core/Src/SCCB.obj"
+	@echo "... Core/Src/SCCB.i"
+	@echo "... Core/Src/SCCB.s"
 	@echo "... Core/Src/delay.obj"
 	@echo "... Core/Src/delay.i"
 	@echo "... Core/Src/delay.s"

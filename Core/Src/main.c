@@ -19,11 +19,11 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
-#include <stdio.h>
-
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "delay.h"
+#include <stdio.h>
+#include "SCCB.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -97,17 +97,23 @@ int main(void)
   MX_GPIO_Init();
   MX_LPUART1_UART_Init();
   /* USER CODE BEGIN 2 */
+SCCB_Init();
 
+
+int id = 0;
+    SCCB_WR_Reg_ecc(0x12, 0x80);
+    SCCB_WR_Reg_ecc(0x19, 0x07);
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-      HAL_GPIO_WritePin(RRST_GPIO_Port, RRST_Pin, GPIO_PIN_RESET);
-      delay_us(10);
-      HAL_GPIO_WritePin(RRST_GPIO_Port, RRST_Pin, GPIO_PIN_SET);
-      delay_us(10);
+
+      id = SCCB_RD_Reg_ecc(0x0b);
+      HAL_Delay(100);
+      printf("%x\n", id);
+      HAL_Delay(100);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

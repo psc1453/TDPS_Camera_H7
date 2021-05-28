@@ -94,6 +94,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/psc/CLionProjects/Camera_H7/Core/Inc/SCCB.h">
+			<Option target="Camera_H7.elf"/>
+		</Unit>
 		<Unit filename="/Users/psc/CLionProjects/Camera_H7/Core/Inc/delay.h">
 			<Option target="Camera_H7.elf"/>
 		</Unit>
@@ -107,6 +110,9 @@
 			<Option target="Camera_H7.elf"/>
 		</Unit>
 		<Unit filename="/Users/psc/CLionProjects/Camera_H7/Core/Inc/sys.h">
+			<Option target="Camera_H7.elf"/>
+		</Unit>
+		<Unit filename="/Users/psc/CLionProjects/Camera_H7/Core/Src/SCCB.c">
 			<Option target="Camera_H7.elf"/>
 		</Unit>
 		<Unit filename="/Users/psc/CLionProjects/Camera_H7/Core/Src/delay.c">

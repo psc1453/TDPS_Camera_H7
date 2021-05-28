@@ -3,6 +3,48 @@
 
 CMakeFiles/Camera_H7.elf.dir/startup/startup_stm32h743xx.s.obj: ../startup/startup_stm32h743xx.s
 
+CMakeFiles/Camera_H7.elf.dir/Core/Src/SCCB.c.obj: ../Core/Inc/SCCB.h
+CMakeFiles/Camera_H7.elf.dir/Core/Src/SCCB.c.obj: ../Core/Inc/delay.h
+CMakeFiles/Camera_H7.elf.dir/Core/Src/SCCB.c.obj: ../Core/Inc/main.h
+CMakeFiles/Camera_H7.elf.dir/Core/Src/SCCB.c.obj: ../Core/Inc/stm32h7xx_hal_conf.h
+CMakeFiles/Camera_H7.elf.dir/Core/Src/SCCB.c.obj: ../Core/Inc/sys.h
+CMakeFiles/Camera_H7.elf.dir/Core/Src/SCCB.c.obj: ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h743xx.h
+CMakeFiles/Camera_H7.elf.dir/Core/Src/SCCB.c.obj: ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h
+CMakeFiles/Camera_H7.elf.dir/Core/Src/SCCB.c.obj: ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h
+CMakeFiles/Camera_H7.elf.dir/Core/Src/SCCB.c.obj: ../Drivers/CMSIS/Include/cmsis_armcc.h
+CMakeFiles/Camera_H7.elf.dir/Core/Src/SCCB.c.obj: ../Drivers/CMSIS/Include/cmsis_armclang.h
+CMakeFiles/Camera_H7.elf.dir/Core/Src/SCCB.c.obj: ../Drivers/CMSIS/Include/cmsis_armclang_ltm.h
+CMakeFiles/Camera_H7.elf.dir/Core/Src/SCCB.c.obj: ../Drivers/CMSIS/Include/cmsis_compiler.h
+CMakeFiles/Camera_H7.elf.dir/Core/Src/SCCB.c.obj: ../Drivers/CMSIS/Include/cmsis_gcc.h
+CMakeFiles/Camera_H7.elf.dir/Core/Src/SCCB.c.obj: ../Drivers/CMSIS/Include/cmsis_iccarm.h
+CMakeFiles/Camera_H7.elf.dir/Core/Src/SCCB.c.obj: ../Drivers/CMSIS/Include/cmsis_version.h
+CMakeFiles/Camera_H7.elf.dir/Core/Src/SCCB.c.obj: ../Drivers/CMSIS/Include/core_cm7.h
+CMakeFiles/Camera_H7.elf.dir/Core/Src/SCCB.c.obj: ../Drivers/CMSIS/Include/mpu_armv7.h
+CMakeFiles/Camera_H7.elf.dir/Core/Src/SCCB.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+CMakeFiles/Camera_H7.elf.dir/Core/Src/SCCB.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h
+CMakeFiles/Camera_H7.elf.dir/Core/Src/SCCB.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h
+CMakeFiles/Camera_H7.elf.dir/Core/Src/SCCB.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h
+CMakeFiles/Camera_H7.elf.dir/Core/Src/SCCB.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h
+CMakeFiles/Camera_H7.elf.dir/Core/Src/SCCB.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h
+CMakeFiles/Camera_H7.elf.dir/Core/Src/SCCB.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h
+CMakeFiles/Camera_H7.elf.dir/Core/Src/SCCB.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h
+CMakeFiles/Camera_H7.elf.dir/Core/Src/SCCB.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h
+CMakeFiles/Camera_H7.elf.dir/Core/Src/SCCB.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h
+CMakeFiles/Camera_H7.elf.dir/Core/Src/SCCB.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h
+CMakeFiles/Camera_H7.elf.dir/Core/Src/SCCB.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h
+CMakeFiles/Camera_H7.elf.dir/Core/Src/SCCB.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h
+CMakeFiles/Camera_H7.elf.dir/Core/Src/SCCB.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h
+CMakeFiles/Camera_H7.elf.dir/Core/Src/SCCB.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h
+CMakeFiles/Camera_H7.elf.dir/Core/Src/SCCB.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h
+CMakeFiles/Camera_H7.elf.dir/Core/Src/SCCB.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h
+CMakeFiles/Camera_H7.elf.dir/Core/Src/SCCB.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h
+CMakeFiles/Camera_H7.elf.dir/Core/Src/SCCB.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h
+CMakeFiles/Camera_H7.elf.dir/Core/Src/SCCB.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h
+CMakeFiles/Camera_H7.elf.dir/Core/Src/SCCB.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h
+CMakeFiles/Camera_H7.elf.dir/Core/Src/SCCB.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h
+CMakeFiles/Camera_H7.elf.dir/Core/Src/SCCB.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h
+CMakeFiles/Camera_H7.elf.dir/Core/Src/SCCB.c.obj: ../Core/Src/SCCB.c
+
 CMakeFiles/Camera_H7.elf.dir/Core/Src/delay.c.obj: ../Core/Inc/delay.h
 CMakeFiles/Camera_H7.elf.dir/Core/Src/delay.c.obj: ../Core/Inc/stm32h7xx_hal_conf.h
 CMakeFiles/Camera_H7.elf.dir/Core/Src/delay.c.obj: ../Core/Inc/sys.h
@@ -43,6 +85,7 @@ CMakeFiles/Camera_H7.elf.dir/Core/Src/delay.c.obj: ../Drivers/STM32H7xx_HAL_Driv
 CMakeFiles/Camera_H7.elf.dir/Core/Src/delay.c.obj: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h
 CMakeFiles/Camera_H7.elf.dir/Core/Src/delay.c.obj: ../Core/Src/delay.c
 
+CMakeFiles/Camera_H7.elf.dir/Core/Src/main.c.obj: ../Core/Inc/SCCB.h
 CMakeFiles/Camera_H7.elf.dir/Core/Src/main.c.obj: ../Core/Inc/delay.h
 CMakeFiles/Camera_H7.elf.dir/Core/Src/main.c.obj: ../Core/Inc/main.h
 CMakeFiles/Camera_H7.elf.dir/Core/Src/main.c.obj: ../Core/Inc/stm32h7xx_hal_conf.h

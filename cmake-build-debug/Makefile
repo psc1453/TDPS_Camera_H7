@@ -142,6 +142,33 @@ Camera_H7.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Camera_H7.elf.dir/build.make CMakeFiles/Camera_H7.elf.dir/build
 .PHONY : Camera_H7.elf/fast
 
+Core/Src/OV7725.obj: Core/Src/OV7725.c.obj
+
+.PHONY : Core/Src/OV7725.obj
+
+# target to build an object file
+Core/Src/OV7725.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Camera_H7.elf.dir/build.make CMakeFiles/Camera_H7.elf.dir/Core/Src/OV7725.c.obj
+.PHONY : Core/Src/OV7725.c.obj
+
+Core/Src/OV7725.i: Core/Src/OV7725.c.i
+
+.PHONY : Core/Src/OV7725.i
+
+# target to preprocess a source file
+Core/Src/OV7725.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Camera_H7.elf.dir/build.make CMakeFiles/Camera_H7.elf.dir/Core/Src/OV7725.c.i
+.PHONY : Core/Src/OV7725.c.i
+
+Core/Src/OV7725.s: Core/Src/OV7725.c.s
+
+.PHONY : Core/Src/OV7725.s
+
+# target to generate assembly for a file
+Core/Src/OV7725.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Camera_H7.elf.dir/build.make CMakeFiles/Camera_H7.elf.dir/Core/Src/OV7725.c.s
+.PHONY : Core/Src/OV7725.c.s
+
 Core/Src/SCCB.obj: Core/Src/SCCB.c.obj
 
 .PHONY : Core/Src/SCCB.obj
@@ -943,6 +970,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Camera_H7.elf"
+	@echo "... Core/Src/OV7725.obj"
+	@echo "... Core/Src/OV7725.i"
+	@echo "... Core/Src/OV7725.s"
 	@echo "... Core/Src/SCCB.obj"
 	@echo "... Core/Src/SCCB.i"
 	@echo "... Core/Src/SCCB.s"

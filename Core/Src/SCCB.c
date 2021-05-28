@@ -24,9 +24,9 @@ void SCCB_Start(void)
 {
     SCCB_SDA_SET();
     SCCB_SCL_SET();
-    HAL_Delay(1);
+    delay_us(200);
     SCCB_SDA_RESET();
-    HAL_Delay(1);
+    delay_us(200);
     SCCB_SCL_RESET();
 }
 
@@ -34,23 +34,23 @@ void SCCB_Start(void)
 void SCCB_Stop(void)
 {
     SCCB_SDA_RESET();
-    HAL_Delay(1);
+    delay_us(200);
     SCCB_SCL_SET();
-    HAL_Delay(1);
+    delay_us(200);
     SCCB_SDA_SET();
-    HAL_Delay(1);
+    delay_us(200);
 }
 
 void SCCB_No_Ack(void)
 {
-    HAL_Delay(1);
+    delay_us(200);
     SCCB_SDA_SET();
     SCCB_SCL_SET();
-    HAL_Delay(1);
+    delay_us(200);
     SCCB_SCL_RESET();
-    HAL_Delay(1);
+    delay_us(200);
     SCCB_SDA_RESET();
-    HAL_Delay(1);
+    delay_us(200);
 }
 
 uint8_t SCCB_WR_Byte(uint8_t dat)
@@ -61,15 +61,15 @@ uint8_t SCCB_WR_Byte(uint8_t dat)
         if(dat&0x80)SCCB_SDA_SET();
         else SCCB_SDA_RESET();
         dat<<=1;
-        HAL_Delay(1);
+        delay_us(200);
         SCCB_SCL_SET();
-        HAL_Delay(1);
+        delay_us(200);
         SCCB_SCL_RESET();
     }
     SCCB_SDA_IN();
-    HAL_Delay(1);
+    delay_us(200);
     SCCB_SCL_SET();
-    HAL_Delay(1);
+    delay_us(200);
     if(SCCB_SDA_READ())res=1;
     else res=0;
     SCCB_SCL_RESET();
@@ -83,11 +83,11 @@ uint8_t SCCB_RD_Byte(void)
     SCCB_SDA_IN();
     for(j=8;j>0;j--)
     {
-        HAL_Delay(1);
+        delay_us(200);
         SCCB_SCL_SET();
         temp=temp<<1;
         if(SCCB_SDA_READ())temp++;
-        HAL_Delay(1);
+        delay_us(200);
         SCCB_SCL_RESET();
     }
     SCCB_SDA_OUT();
@@ -99,9 +99,9 @@ uint8_t SCCB_WR_Reg(uint8_t reg,uint8_t data)
     uint8_t res=0;
     SCCB_Start();
     if(SCCB_WR_Byte(SCCB_ID))res=1;
-    HAL_Delay(2);
+    delay_us(400);
     if(SCCB_WR_Byte(reg))res=1;
-    HAL_Delay(2);
+    delay_us(400);
     if(SCCB_WR_Byte(data))res=1;
     SCCB_Stop();
     return	res;
@@ -112,15 +112,15 @@ uint8_t SCCB_RD_Reg(uint8_t reg)
     uint8_t val=0;
     SCCB_Start();
     SCCB_WR_Byte(SCCB_ID);
-    HAL_Delay(2);
+    delay_us(400);
     SCCB_WR_Byte(reg);
-    HAL_Delay(2);
+    delay_us(400);
     SCCB_Stop();
-    HAL_Delay(2);
+    delay_us(400);
 
     SCCB_Start();
     SCCB_WR_Byte(SCCB_ID|0X01);
-    HAL_Delay(2);
+    delay_us(400);
     val=SCCB_RD_Byte();
     SCCB_No_Ack();
     SCCB_Stop();

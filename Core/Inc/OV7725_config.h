@@ -177,7 +177,7 @@ const uint8_t ov7725_init_reg_tb1[][2]=
                 {TGT_B,     0x7f},
                 {FixGain,   0x09},
                 {AWB_Ctrl0, 0xe0},
-                {DSP_Ctrl1, 0xff},
+//                {DSP_Ctrl1, 0xff},
                 {DSP_Ctrl2, 0x00},
                 {DSP_Ctrl3,	0x00},
                 {DSP_Ctrl4, 0x00},
@@ -187,14 +187,14 @@ const uint8_t ov7725_init_reg_tb1[][2]=
                 {COM4,		0x81}, /*Pll AEC CONFIG*/
                 {COM6,		0xc5},
                 {COM9,		0x11},
-                {BDBase,	0x7F},
+//                {BDBase,	0x7F},
                 {BDMStep,	0x03},
                 {AEW,		0x40},
                 {AEB,		0x30},
                 {VPT,		0xa1},
 //                {EXHCL,		0x9e},
                 {AWBCtrl3,  0xaa},
-                {COM8,		0xff},
+//                {COM8,		0xff},
 
                 /*matrix shapness brightness contrast*/
                 {EDGE1,		0x08},

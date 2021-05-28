@@ -24,6 +24,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "../Drivers/CMSIS/Include"
   )
 set(CMAKE_DEPENDS_CHECK_C
+  "/Users/psc/CLionProjects/Camera_H7/Core/Src/OV7725.c" "/Users/psc/CLionProjects/Camera_H7/cmake-build-debug/CMakeFiles/Camera_H7.elf.dir/Core/Src/OV7725.c.obj"
   "/Users/psc/CLionProjects/Camera_H7/Core/Src/SCCB.c" "/Users/psc/CLionProjects/Camera_H7/cmake-build-debug/CMakeFiles/Camera_H7.elf.dir/Core/Src/SCCB.c.obj"
   "/Users/psc/CLionProjects/Camera_H7/Core/Src/delay.c" "/Users/psc/CLionProjects/Camera_H7/cmake-build-debug/CMakeFiles/Camera_H7.elf.dir/Core/Src/delay.c.obj"
   "/Users/psc/CLionProjects/Camera_H7/Core/Src/main.c" "/Users/psc/CLionProjects/Camera_H7/cmake-build-debug/CMakeFiles/Camera_H7.elf.dir/Core/Src/main.c.obj"

@@ -24,6 +24,7 @@
 #include "delay.h"
 #include <stdio.h>
 #include "SCCB.h"
+#include "OV7725.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -98,11 +99,10 @@ int main(void)
   MX_LPUART1_UART_Init();
   /* USER CODE BEGIN 2 */
 SCCB_Init();
+OV7725_Init();
 
 
-int id = 0;
-    SCCB_WR_Reg_ecc(0x12, 0x80);
-//    SCCB_WR_Reg_ecc(0x19, 0x07);
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -110,10 +110,6 @@ int id = 0;
   while (1)
   {
 
-      id = SCCB_RD_Reg_ecc(0x2a);
-      HAL_Delay(100);
-      printf("%x\n", id);
-      HAL_Delay(100);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

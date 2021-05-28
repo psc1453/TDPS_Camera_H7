@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Camera_H7.elf.dir/Core/Src/OV7725.c.obj"
   "CMakeFiles/Camera_H7.elf.dir/Core/Src/SCCB.c.obj"
   "CMakeFiles/Camera_H7.elf.dir/Core/Src/delay.c.obj"
   "CMakeFiles/Camera_H7.elf.dir/Core/Src/main.c.obj"

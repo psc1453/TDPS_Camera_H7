@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Camera_H7.elf.dir/Core/Src/main.c.obj"
   "CMakeFiles/Camera_H7.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj"
   "CMakeFiles/Camera_H7.elf.dir/Core/Src/stm32h7xx_it.c.obj"
+  "CMakeFiles/Camera_H7.elf.dir/Core/Src/sys.c.obj"
   "CMakeFiles/Camera_H7.elf.dir/Core/Src/syscalls.c.obj"
   "CMakeFiles/Camera_H7.elf.dir/Core/Src/system_stm32h7xx.c.obj"
   "CMakeFiles/Camera_H7.elf.dir/Core/Src/uart_putc.c.obj"
